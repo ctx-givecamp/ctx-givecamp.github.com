@@ -11,13 +11,13 @@ body {
 
 header {
    background: rgb(0, 56, 0) url('header.gif');
-   border-bottom: 10px solid rgb(0, 44, 0);
+   border-bottom: 10px solid rgb(0, 30, 0);
    color: #fff;
    margin: 0 0 30px;
    box-shadow: 0 -10px 15px 10px #33302E; }
 
 h1 {
-   padding: 10px 0;
+   padding: 20px 0;
    text-align: center; }
 
 p {
