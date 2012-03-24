@@ -35,4 +35,9 @@ ul {
    list-style: none; }
 
 li {
-   margin: 0 0 20px; }
+   margin: 0 0 20px;
+   overflow: hidden; }
+
+img {
+   float: left;
+   margin-right: 10px; }
