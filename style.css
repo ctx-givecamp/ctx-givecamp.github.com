@@ -17,15 +17,17 @@ header {
    box-shadow: 0 -10px 15px 10px #33302E; }
 
 h1 {
+   font-weight: normal;
    padding: 20px 0;
    text-align: center; }
 
 p {
-   color: rgb(0, 56, 0);
+   color: rgb(0, 96, 0);
    text-align: justify; }
 
 strong {
-   color: #000; }
+   color: #000;
+   font-weight: normal; }
 
 h1, ul {
    margin: 0 auto;
