@@ -3,11 +3,18 @@
    padding: 0;
    -moz-box-sizing: border-box;
    -webkit-box-sizing: border-box;
-   box-sizing: border-box; }
+   box-sizing: border-box;
+   -webkit-transition: all 0.3s;
+   -moz-transition: all 0.3s;
+   -ms-transition: all 0.3s;
+   -o-transition: all 0.3s;
+   transition: all 0.3s; }
+
+body, button, input {
+   font: 400 16px/1.6 'Imprima', Verdana, Helvetica, sans-serif; }
 
 body {
-   background: rgb(207, 196, 185) url('bg.gif');
-   font: 400 16px/1.6 'Imprima', Verdana, Helvetica, sans-serif; }
+   background: rgb(207, 196, 185) url('bg.gif'); }
 
 header {
    background: rgb(0, 56, 0) url('header.gif');
@@ -24,6 +31,40 @@ h1 {
 p {
    color: rgb(0, 96, 0);
    text-align: justify; }
+
+form {
+   margin: 20px auto 0;
+   width: 360px; }
+
+button, input {
+   border: 0;
+   outline: none;
+   padding: 5px; }
+
+button {
+   background-color: rgb(0, 30, 0);
+   border: 2px solid rgb(0, 30, 0);
+   color: #fff;
+   cursor: pointer;
+   width: 100px; }
+
+   button:hover {
+      background-color: rgb(0, 96, 0);
+      border-color: rgb(0, 96, 0); }
+
+   button:active {
+      background: rgb(0, 56, 0);
+      border-color: rgb(0, 56, 0); }
+
+input {
+   background-color: #fff;
+   border: 2px solid rgb(0, 30, 0);
+   margin-right: 10px;
+   width: 250px; }
+
+   input:focus {
+      background-color: #fff;
+      border-color: rgb(0, 96, 0); }
 
 strong {
    color: #000;
