@@ -25,6 +25,11 @@ header {
    margin: 0 0 100px;
    box-shadow: 0 -10px 15px 10px #33302E; }
 
+   header h1, header h2 {
+      font: 0/0 a;
+      text-shadow: none;
+      color: transparent; }
+
 h1 {
    font-weight: normal;
    padding: 20px 0 0;
@@ -34,6 +39,7 @@ h1 {
 h2 {
    font-family: 'Annie Use Your Telescope';
    font-size: 28px;
+   font-weight: normal;
    margin: 0 0 12px;
    text-align: center; }
 
