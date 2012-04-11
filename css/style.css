@@ -14,20 +14,37 @@ body, button, input {
    font: 400 16px/1.6 'Imprima', Verdana, Helvetica, sans-serif; }
 
 body {
-   background: rgb(207, 196, 185) url('bg.gif');
+   background: rgb(207, 196, 185) url('../bg.gif');
    background-size: 250px 250px; }
 
 header {
-   background: rgb(0, 56, 0) url('header.gif');
+   background: rgb(0, 56, 0) url('../header.gif');
    background-size: 150px 150px;
    border-bottom: 10px solid rgb(0, 30, 0);
    color: #fff;
-   margin: 0 0 30px;
+   margin: 0 0 100px;
    box-shadow: 0 -10px 15px 10px #33302E; }
 
 h1 {
    font-weight: normal;
-   padding: 20px 0;
+   padding: 20px 0 0;
+   margin: 0 0 -100px;
+   text-align: center; }
+
+h2 {
+   font-family: 'Annie Use Your Telescope';
+   font-size: 28px;
+   margin: 0 0 12px;
+   text-align: center; }
+
+   h2 img {
+      display: inline;
+      margin-right: 10px;
+      vertical-align: middle; }
+
+h3 {
+   font-size: 18px;
+   margin: 18px 0;
    text-align: center; }
 
 p {
@@ -72,10 +89,6 @@ strong {
    color: #000;
    font-weight: normal; }
 
-h1, ul {
-   margin: 0 auto;
-   width: 460px; }
-
 ul {
    list-style: none; }
 
@@ -83,6 +96,9 @@ li {
    margin: 0 0 20px;
    overflow: hidden; }
 
-img {
-   float: left;
-   margin-right: 10px; }
+.intro {
+   font-size: 18px;
+}
+
+.category {
+   padding-bottom: 24px; }

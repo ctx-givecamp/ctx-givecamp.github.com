@@ -5,45 +5,52 @@
 <head>
    <title>Austin GiveCamp</title>
    <meta name='viewport' content='width=device-width'>
-   <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Imprima'>
-   <link rel='stylesheet' href='style.css'>
+   <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Imprima|Annie+Use+Your+Telescope'>
+   <link rel='stylesheet' href='css/skeleton.css'>
+   <link rel='stylesheet' href='css/layout.css'>
+   <link rel='stylesheet' href='css/style.css'>
 </head>
 
 <body>
    <header>
-      <h1>Austin GiveCamp</h1>
+      <div class='container'>
+         <div class='sixteen columns'>
+            <h1><img src='banner.svg' height='210' width='405'> <!-- 540x280 --></h1>
+         </div>
+      </div>
    </header>
-   <ul>
-      <li>
-         <img src='skillet.svg' height='80' width='80'>
-         <p>
-            <strong>Join us this fall for the Austin GiveCamp</strong>: software
-            professionals coming together to donate time and code to deserving
-            charities.
+
+   <div class='container'>
+      <div class='fourteen columns offset-by-two'>
+         <p class='intro'>
+            <strong>Join us this fall for the Central Texas GiveCamp</strong>: software professionals coming together to donate time and code to deserving charities. Whether you're a developer, designer, or database admin, or you work with a non-profit in need of a technology upgrade, get in touch!
          </p>
-      </li>
-      <li>
-         <img src='canteen.svg' height='80' width='80'>
+         <h3>Interesting in Participating?<br>Are You:</h3>
+      </div>
+      <div class='six columns offset-by-two category'>
+         <h2><img src='skillet.svg' height='64' width='64'>A Developer</h2>
          <p>
-            <strong>We need your help!</strong> Whether you're a developer,
-            designer, or database admin, or you work with a non-profit in need
-            of a technology upgrade, get in touch!
+            <strong>Bacon ipsum dolor sit amet</strong> velit nisi kielbasa, ex reprehenderit salami qui frankfurter cow fugiat tenderloin. Non ullamco in qui, in consectetur ham tri-tip. Chuck et flank, nisi cupidatat dolore voluptate eu speck irure turducken sed nulla culpa laborum.
          </p>
-      </li>
-      <li>
-         <img src='compass.svg' height='80' width='80'>
+      </div>
+      <div class='four columns category'>
+         <h2><img src='canteen.svg' height='64' width='64'>A Non-Profit</h2>
          <p>
-            <strong>Interested in learning more?</strong> Maybe you'd like to
-            volunteer or you know a charity who could use some help? Sign up for
-            our newsletter!
+            <strong>Labore strip steak magna</strong>, quis incididunt tri-tip tenderloin turducken ham hock adipisicing. Sint venison et, aute reprehenderit minim ullamco shankle fugiat biltong. Aliquip aute dolore shank esse ex, anim dolor chuck.
          </p>
+      </div>
+      <div class='four columns category'>
+         <h2><img src='compass.svg' height='64' width='64'>A Sponsor</h2>
+         <p>
+            <strong>Pig pork belly ullamco salami cupidatat occaecat shankle.</strong> Biltong pork belly ea short ribs reprehenderit. Cupidatat ground round strip steak sausage, chuck speck sint meatloaf. Esse sint chuck frankfurter ut cillum, laborum aliquip shankle in sirloin.
+         </p>
+      </div>
+      <div class='sixteen columns'>
          <form>
-            <p>
-               <input placeholder='lisa@sample.com' type='email'><button type='submit'>Sign Up!</button>
-            </p>
+            <input placeholder='lisa@sample.com' type='email'><button type='submit'>Sign Up!</button>
          </form>
-      </li>
-   </ul>
+      </div>
+   </div>
 </body>
 
 </html>
