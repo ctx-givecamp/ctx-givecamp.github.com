@@ -15,7 +15,7 @@
    <header>
       <div class='container'>
          <div class='sixteen columns'>
-            <h1><img src='banner.svg' height='210' width='405'>Central Texas Give Camp</h1>
+            <h1><img class='banner' src='banner.svg' height='210' width='405'>Central Texas Give Camp</h1>
             <h2>Presented by Headspring</h2>
          </div>
       </div>
@@ -52,6 +52,31 @@
          </form>
       </div>
    </div>
+
+   <script src='http://code.jquery.com/jquery-1.7.2.min.js'></script>
+   <script>
+
+      $(function() {
+
+         $(window).on('resize', resizeImages);
+         resizeImages();
+         
+      });
+
+      var resizeImages = function() {
+         var windowWidth = $(window).width();
+         if(windowWidth <= 480){
+             resizeBanner(270, 140);
+         } else {
+            resizeBanner(405, 210);
+         }
+      };
+
+      var resizeBanner = function(width, height) {
+         $('.banner').attr('width', width).attr('height', height);
+      };
+
+   </script>
 </body>
 
 </html>
