@@ -15,7 +15,8 @@ body, button, input {
 
 body {
    background: rgb(207, 196, 185) url('../bg.gif');
-   background-size: 250px 250px; }
+   background-size: 250px 250px;
+   font-size: 62.5%; }
 
 header {
    background: rgb(0, 56, 0) url('../header.gif');
@@ -38,7 +39,7 @@ h1 {
 
 h2 {
    font-family: 'Annie Use Your Telescope';
-   font-size: 28px;
+   font-size: 2.8em;
    font-weight: normal;
    margin: 0 0 12px;
    text-align: center; }
@@ -49,12 +50,13 @@ h2 {
       vertical-align: middle; }
 
 h3 {
-   font-size: 18px;
+   font-size: 1.8em;
    margin: 18px 0;
    text-align: center; }
 
 p {
    color: rgb(0, 96, 0);
+   font-size: 1.6em;
    text-align: justify; }
 
 form {
@@ -103,7 +105,7 @@ li {
    overflow: hidden; }
 
 .intro {
-   font-size: 18px;
+   font-size: 1.8em;
 }
 
 .category {
