@@ -14,12 +14,12 @@ body, button, input {
    font: 400 16px/1.6 'Imprima', Verdana, Helvetica, sans-serif; }
 
 body {
-   background: rgb(207, 196, 185) url('../bg.gif');
+   background: rgb(207, 196, 185) url('../img/bg.gif');
    background-size: 250px 250px;
    font-size: 62.5%; }
 
 header {
-   background: rgb(0, 56, 0) url('../header.gif');
+   background: rgb(0, 56, 0) url('../img/header.gif');
    background-size: 150px 150px;
    border-bottom: 10px solid rgb(0, 30, 0);
    color: #fff;
