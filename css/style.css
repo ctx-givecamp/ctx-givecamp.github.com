@@ -14,7 +14,7 @@ body, button, input {
    font: 400 16px/1.6 'Imprima', Verdana, Helvetica, sans-serif; }
 
 body {
-   background: rgb(207, 196, 185) url('../img/bg.gif');
+   background: #d3cca7 url('../img/bg.gif');
    background-size: 250px 250px;
    font-size: 62.5%; }
 
