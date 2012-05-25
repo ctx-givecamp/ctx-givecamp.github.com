@@ -1,113 +1,12 @@
-<!doctype html>
+---
+layout : default
+---
 
-<html>
-
-<head>
-   <title>Central Texas GiveCamp</title>
-   <meta name='viewport' content='width=device-width'>
-   <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Imprima|Annie+Use+Your+Telescope'>
-   <link rel='stylesheet' href='css/skeleton.css'>
-   <link rel='stylesheet' href='css/style.css'>
-   <link rel='stylesheet' href='css/layout.css'>
-   <script src='js/modernizr-2.5.3.custom.min.js'></script>
-</head>
-
-<body>
-   <header>
-      <div class='container'>
-         <div class='sixteen columns'>
-            <h1><img class='banner' src='img/banner.svg' height='210' width='405'>Central Texas Give Camp</h1>
-            <h2>Presented by Headspring</h2>
-         </div>
-      </div>
-   </header>
-
-   <div class='container'>
-      <div class='fourteen columns offset-by-two'>
-         <p class='intro'>
-            <strong>Join us this fall for the Central Texas GiveCamp</strong>: software professionals coming together to donate time and code to deserving charities. Whether you're a developer, designer, or database admin, or you work with a non-profit in need of a technology upgrade, get in touch!
-         </p>
-         <h3>Interested in Participating?</h3>
-
-         <form action="http://ctxgivecamp.us5.list-manage.com/subscribe/post?u=df7e7f25da77ba8049cf2d8d3&amp;id=310a69bcc4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-            <!--<div id="mce-responses" class="clear">
-               <div class="response" id="mce-error-response" style="display:none"></div>
-               <div class="response" id="mce-success-response" style="display:none"></div>
-            </div>-->
-            <input placeholder='lisa@sample.com' type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL"><button type='submit' name='subscribe' id='mc-embedded-subscribe'>Sign Up!</button>
-         </form>
-         <h3>Are You:</h3>
-      </div>
-      <div class='six columns offset-by-two category'>
-         <h2><img src='img/skillet.svg' height='64' width='64'>A Developer</h2>
-         <p>
-            <strong>Make software. Have fun. Do good.</strong> You possess rare talents, from writing code to designing graphics and layouts to structuring databases; apply those talents to help Central Texas charities do more good.
-         </p>
-      </div>
-      <div class='four columns category'>
-         <h2><img src='img/canteen.svg' height='64' width='64'>A Non-Profit</h2>
-         <p>
-            <strong>What can we build for you?</strong> You make a difference in our community. If you had a software team for a weekend, what would you ask of them? What would empower you to extend your help further?
-         </p>
-      </div>
-      <div class='four columns category'>
-         <h2><img src='img/compass.svg' height='64' width='64'>A Sponsor</h2>
-         <p>
-            <strong>Help make the event successful.</strong> From web hosting to food, your support will make sure teams have the resources they need to deliver results that make a difference to participating charities.
-         </p>
-      </div>
-      
-   </div>
-
-   <script src='http://code.jquery.com/jquery-1.7.2.min.js'></script>
-   <script>
-
-      $(function() {
-
-         if (!Modernizr.svg) {
-            $('img').each(function(idx, val) {
-               var $el, src;
-
-               $el = $(val);
-               src = $el.attr('src').split('.')[0] + '.png';
-
-               $el.attr('src', src);
-            });
-         }
-
-         $(window).on('resize', resizeImages);
-         resizeImages();
-         
-      });
-
-      var resizeImages = function() {
-         var windowWidth = $(window).width();
-         if(windowWidth <= 480){
-             resizeBanner(270, 140);
-         } else {
-            resizeBanner(405, 210);
-         }
-      };
-
-      var resizeBanner = function(width, height) {
-         $('.banner').attr('width', width).attr('height', height);
-      };
-
-   </script>
-
-   <script>
-
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-30945043-1']);
-      _gaq.push(['_trackPageview']);
-
-      (function() {
-         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-
-   </script>
-</body>
-
-</html>
+<ul class='board'>
+   {% for post in site.posts limit: 5 %}
+   <li>
+      <h3>{{ post.title }} <small>{{ post.date | date_to_string }}</small></h3>
+      {{ post.content }}
+   </li>
+   {% endfor %}
+</ul>
