@@ -109,6 +109,12 @@ li {
    margin: 0 0 20px;
    overflow: hidden; }
 
+.register {
+   font-size: 1.8em;
+   text-align: center;
+   margin-bottom: 1.0em;
+}
+
 .intro {
    font-size: 1.8em;
 }
