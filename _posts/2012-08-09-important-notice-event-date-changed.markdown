@@ -8,6 +8,6 @@ The success of each project is of the upmost importance to us, and extra time fo
 
 As an added bonus, we are scheduling a Meet and Greet for all team members and non-profit representatives **on Friday, September 14th from 6:00-9:00 PM** at the Headspring office.  This time is set aside for teams to meet their project leaders, get a briefing on the project plan, and organize ideas for execution. Light refreshments will be provided. 
 
-We are in the process of emailing all confirmed projects and team members about the change. If you have questions or concerns, please contact [info@ctxgivecamp.com](mailto:info@ctxgivecamp.com).
+We are in the process of emailing all confirmed projects and team members about the change. If you have questions or concerns, please contact [info@ctxgivecamp.org](mailto:info@ctxgivecamp.org).
 
 On a final note, we're still recruiting weekend participants and sponsors. Anyone looking to get share their time or resources with a deserving non-profit, please consider signing up. You won't regret it!
