@@ -139,6 +139,12 @@ li {
          font-weight: normal; }
    .board p {
       margin:0 0 12px; }
+   .board ul {
+      font-size: 1.5em; }
+      .board ul > li {
+         color: rgb(0, 96, 0);
+         margin: 0 0 10px;
+         text-align: center; }
 
 .campfire .tweets {
    color: rgb(0, 96, 0);
