@@ -14,9 +14,10 @@ body, button, input {
    font: 400 16px/1.6 'Imprima', Verdana, Helvetica, sans-serif; }
 
 body {
-   background: rgb(211, 204, 167) url('../img/bg.gif');
+   background: rgb(211, 204, 167) url('/img/bg.gif');
    background-size: 250px 250px;
-   font-size: 62.5%; }
+   font-size: 62.5%;
+   padding-bottom: 2.0em; }
 
 a:link, a:visited {
    color: rgb(0, 96, 0); }
@@ -24,7 +25,7 @@ a:hover {
    color: rgb(0, 144, 0); }
 
 header {
-   background: rgb(0, 56, 0) url('../img/header.gif');
+   background: rgb(0, 56, 0) url('/img/header.gif');
    background-size: 150px 150px;
    border-bottom: 10px solid rgb(0, 30, 0);
    color: #fff;
@@ -36,10 +37,11 @@ header {
       text-shadow: none;
       color: transparent; }
 
+header h1 {
+   margin: 0 0 -100px; }
 h1 {
    font-weight: normal;
    padding: 20px 0 0;
-   margin: 0 0 -100px;
    text-align: center; }
 
 h2 {
@@ -103,7 +105,7 @@ strong {
    font-weight: normal; }
 
 ul {
-   list-style: none; }
+   /*list-style-type: none;*/ }
 
 li {
    margin: 0 0 20px;
@@ -139,12 +141,27 @@ li {
          font-weight: normal; }
    .board p {
       margin:0 0 12px; }
+   .board > li {
+      margin: 0; }
    .board ul {
       font-size: 1.5em; }
       .board ul > li {
          color: rgb(0, 96, 0);
          margin: 0 0 10px;
          text-align: center; }
+
+.board-old {}
+   .board-old h3 {
+      font-size: 1.4em;
+      margin: 0; }
+
+.board-post {}
+   .board-post h1 {
+      margin-bottom: 1.0em;
+      padding: 0;
+   }
+   .board-post p {
+      margin-bottom: 1.0em; }
 
 .campfire .tweets {
    color: rgb(0, 96, 0);

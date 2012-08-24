@@ -1,5 +1,6 @@
 ---
 title: Important Notice&#58; EVENT DATE CHANGED
+layout: post
 ---
 
 As some of you may have noticed, we've changed the date for Central Texas Give Camp **to September 28th &mdash; 30th**.

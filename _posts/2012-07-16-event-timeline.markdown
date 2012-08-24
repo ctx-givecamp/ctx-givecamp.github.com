@@ -1,5 +1,6 @@
 ---
 title: Event Timeline
+layout: post
 ---
 
 A lot of  folks have been asking about how the weekend will play out, so we put together an event timeline for anyone interested in attending. Ready to sign up? Visit our Eventbrite page: [http://ctxgivecamp.eventbrite.com/](http://ctxgivecamp.eventbrite.com/).

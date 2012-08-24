@@ -1,5 +1,6 @@
 ---
 title: Central Texas GiveCamp Confirms Charity Selections
+layout: post
 ---
 
 Central Texas GiveCamp is pleased to announce their final charity selections for the September 2012 event. The benefitting charities will be:

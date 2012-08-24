@@ -1,5 +1,6 @@
 ---
 title: Announcing the Central Texas GiveCamp!
+layout: post
 ---
 
 We're happy to announce that we're planning the inaugural Central Texas GiveCamp to be held on September 15th in Austin, TX! A GiveCamp is an event that runs over the course of one weekend, bringing developers, designers and a variety of technologists together to donate a portion of their time to helping non-profit organizations with their technology needs. If you are a software developer, designer, database administrator or anything remotely close, sign up to stay informed about CTX GiveCamp.
