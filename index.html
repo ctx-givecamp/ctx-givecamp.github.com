@@ -12,7 +12,7 @@ layout : default
 </ul>
 <h2>Older Posts</h2>
 <ul class='board board-old'>
-   {% for post in site.posts %}
+   {% for post in site.posts offset: 1 %}
       <li><h3><a href="{{ post.url }}">{{ post.title }}</a></h3></li>
    {% endfor %}
 </ul>
